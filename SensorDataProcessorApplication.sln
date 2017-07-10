@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SensorDataProcessorApplication", "SensorDataProcessorApplication\SensorDataProcessorApplication.sfproj", "{9AA49221-9171-4A90-AD35-5A4EF97C49EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorDataProcessor", "SensorDataProcessor\SensorDataProcessor.csproj", "{D4D9989E-6E2A-41B4-93D4-649965AAD638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubPartitionMap", "IoTHubPartitionMap\IoTHubPartitionMap.csproj", "{89A9AE3C-7BEB-4246-9D7C-911A6B2DF6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubPartitionMap.Interfaces", "IoTHubPartitionMap.Interfaces\IoTHubPartitionMap.Interfaces.csproj", "{0A13FFCA-314C-4CE0-997A-7B99C7C40A35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA49221-9171-4A90-AD35-5A4EF97C49EA}.Debug|x64.ActiveCfg = Debug|x64
+		{9AA49221-9171-4A90-AD35-5A4EF97C49EA}.Debug|x64.Build.0 = Debug|x64
+		{9AA49221-9171-4A90-AD35-5A4EF97C49EA}.Debug|x64.Deploy.0 = Debug|x64
+		{9AA49221-9171-4A90-AD35-5A4EF97C49EA}.Release|x64.ActiveCfg = Release|x64
+		{9AA49221-9171-4A90-AD35-5A4EF97C49EA}.Release|x64.Build.0 = Release|x64
+		{9AA49221-9171-4A90-AD35-5A4EF97C49EA}.Release|x64.Deploy.0 = Release|x64
+		{D4D9989E-6E2A-41B4-93D4-649965AAD638}.Debug|x64.ActiveCfg = Debug|x64
+		{D4D9989E-6E2A-41B4-93D4-649965AAD638}.Debug|x64.Build.0 = Debug|x64
+		{D4D9989E-6E2A-41B4-93D4-649965AAD638}.Release|x64.ActiveCfg = Release|x64
+		{D4D9989E-6E2A-41B4-93D4-649965AAD638}.Release|x64.Build.0 = Release|x64
+		{89A9AE3C-7BEB-4246-9D7C-911A6B2DF6BF}.Debug|x64.ActiveCfg = Debug|x64
+		{89A9AE3C-7BEB-4246-9D7C-911A6B2DF6BF}.Debug|x64.Build.0 = Debug|x64
+		{89A9AE3C-7BEB-4246-9D7C-911A6B2DF6BF}.Release|x64.ActiveCfg = Release|x64
+		{89A9AE3C-7BEB-4246-9D7C-911A6B2DF6BF}.Release|x64.Build.0 = Release|x64
+		{0A13FFCA-314C-4CE0-997A-7B99C7C40A35}.Debug|x64.ActiveCfg = Debug|x64
+		{0A13FFCA-314C-4CE0-997A-7B99C7C40A35}.Debug|x64.Build.0 = Debug|x64
+		{0A13FFCA-314C-4CE0-997A-7B99C7C40A35}.Release|x64.ActiveCfg = Release|x64
+		{0A13FFCA-314C-4CE0-997A-7B99C7C40A35}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
